@@ -1,1 +1,1 @@
-[![Статус сборки](https://ci.appveyor.com/api/projects/status/dl76mag8e80x59nb?svg=true)](https://ci.appveyor.com/project/DiBerezhnaya/patternstest1)
+[![Build status](https://ci.appveyor.com/api/projects/status/w5wtrhkvddeolctc?svg=true)](https://ci.appveyor.com/project/DiBerezhnaya/patterntask1)

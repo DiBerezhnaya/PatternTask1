@@ -45,7 +45,7 @@ public class TestWithFaker {
         $("[data-test-id='date'] input").sendKeys(Keys.chord(Keys.SHIFT, Keys.HOME), Keys.BACK_SPACE);
         $("[data-test-id='date']").click();
         LocalDate dateDefault = LocalDate.now().plusDays(3);
-        LocalDate dateOfMeeting = LocalDate.of(2022, 8, 31);
+        LocalDate dateOfMeeting = LocalDate.of(2022, 9, 20);
         String dayToSearch = String.valueOf(dateOfMeeting.getDayOfMonth());
         if (dateOfMeeting.getMonthValue() > dateDefault.getMonthValue() | dateOfMeeting.getYear() > dateDefault.getYear()) {
             $(".calendar__arrow_direction_right[data-step='1']").click();
